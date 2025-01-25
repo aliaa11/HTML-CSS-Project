@@ -1,0 +1,168 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui;
+}
+a
+{
+    text-decoration: none;
+    font-size: 18px;
+}
+ul
+{
+  list-style-type:none;
+}
+iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+/* /////////// Navbar /////////// */
+.nav
+{
+  padding: 20px;  
+  margin: 0;
+  background-color: rgb(78, 113, 113);
+  position:fixed;
+  z-index: 1000;
+  width: 100%;
+}
+.nav >li 
+{
+    display: inline;
+}
+.nav >li >a
+{
+    color: rgb(255, 245, 232);
+    padding: 20px 10px;
+    margin-left:20px ;
+    font-weight: 600;  
+}
+.nav >li >a:hover
+{
+background-color: rgba(158, 174, 174, 0.714);
+color: rgb(39, 63, 63);
+font-weight: 600;
+box-shadow:1px -4px 9px 5px #485152;
+}
+/* /////////// Header /////////// */
+.header
+{
+    background-image: url('../images/kari-shea-1SAnrIxw5OY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;            
+    background-position: center;       
+    height: 100vh; 
+    position: relative;
+
+}
+.content{
+   position: absolute;
+   top: 33%; 
+   left: 45%; 
+   transform: translate(-50%, -50%); 
+   padding: 20px;
+}
+.content h1
+{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.633);
+    padding-bottom:10px;
+}
+.animations
+{
+  white-space: nowrap;  
+  overflow: hidden;
+  width: 0;
+  animation: typing infinite;
+  animation-duration: 3s;
+  animation-timing-function: steps(40, end);
+  animation-fill-mode: forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.content .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(78, 113, 113);
+    color: rgb(255, 245, 232);
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #90bcbc;
+    color: #456161;
+}
+/* /////// Page Content //////*/
+.page-content
+{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+}
+.page-links
+{
+  flex: 1;
+  text-align: left;
+}
+.iframe-container
+{
+  flex :5;
+}
+.page-links h1
+{
+  background-color: rgb(78, 113, 113);
+  color: rgb(255, 255, 255);
+  display:inline-block;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+}
+.page-links li >a
+{
+  color: rgb(39, 63, 63);
+    font-weight: 600;  
+    display: block; 
+     padding: 20px;
+
+}
+.page-links li >a:hover
+{
+color: rgb(39, 63, 63);
+box-shadow:1px -4px 9px 5px #485152;
+}
+/* /////// Footer /////// */
+.footer
+{
+  background-color:rgb(78, 113, 113) ;
+  margin-bottom: 0;
+  margin-top: 90px;
+  padding: 20px;
+  color: rgb(255, 245, 232);
+  text-align: center;
+  
+}
+.footer-content
+{
+  margin-bottom: 20px;
+  padding: 30px;
+}
+.footer .footer-content li 
+{
+    display: inline;
+}
+.footer .footer-content li >a
+{
+    color: rgb(255, 245, 232);
+    padding: 20px 10px;
+    margin-left:20px ;
+    font-weight: 600;  
+}
+
+
