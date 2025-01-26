@@ -52,7 +52,17 @@ font-weight: bold;
 .content-left img
 {
     width: 40%;
+    border-radius: 20px;
+    transition: 0.3s ease, border 0.3s ease;
 }
+.content-left img:hover
+{
+    transform: scale(1.05);
+    border: 5px solid rgb(78, 113, 113);   
+    box-shadow: 0 4px 10px 9px rgba(0, 0, 0, 0.2);
+
+}
+
 /* //// Skills ///// */
 .skills
 {

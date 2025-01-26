@@ -18,7 +18,7 @@ iframe {
     height: 700px;
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
 /* /////////// Navbar /////////// */
 .nav
 {
@@ -29,20 +29,20 @@ iframe {
   z-index: 1000;
   width: 100%;
 }
-.nav >li 
+.nav li 
 {
     display: inline;
 }
-.nav >li >a
+.nav li a
 {
     color: rgb(255, 245, 232);
     padding: 20px 10px;
     margin-left:20px ;
     font-weight: 600;  
 }
-.nav >li >a:hover
+.nav li a:hover
 {
-background-color: rgba(158, 174, 174, 0.714);
+background-color: rgba(214, 236, 236, 0.509);
 color: rgb(39, 63, 63);
 font-weight: 600;
 box-shadow:1px -4px 9px 5px #485152;
@@ -84,7 +84,7 @@ box-shadow:1px -4px 9px 5px #485152;
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
+}
 .content .btn {
     display: inline-block;
     margin-top: 20px;
@@ -94,8 +94,8 @@ box-shadow:1px -4px 9px 5px #485152;
     text-decoration: none;
     font-size: 1rem;
     border-radius: 5px;
-  }
-  .btn:hover {
+}
+.btn:hover {
     background-color: #90bcbc;
     color: #456161;
 }
@@ -157,7 +157,7 @@ box-shadow:1px -4px 9px 5px #485152;
 {
     display: inline;
 }
-.footer .footer-content li >a
+.footer .footer-content li a
 {
     color: rgb(255, 245, 232);
     padding: 20px 10px;

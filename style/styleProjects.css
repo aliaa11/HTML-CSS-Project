@@ -57,6 +57,7 @@ color: #4f4f4f;
 .item .image img
 {
     width: 100%;
+    transition: 0.3s ease;
 }
 .item img:hover
 {
